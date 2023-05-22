@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastrar.css">
+    <title>PCMV</title>
+</head>
+<body>
+    <div id="logo">
+        <img id="imagem-voz" src="imagem/cpmvcortado.png" alt="">
+    </div>
+    <form>
+        <h1>Cadastre-se</h1>
+        <input type="text" placeholder="Nome" name="nome" id="nome">
+        <input type="email" placeholder="E-mail" name="email" id="email">
+        <input type="password" placeholder="Nova Senha" name="senha" id="senha">
+        <input type="password" placeholder="Confirme a Senha" name="senha" id="senha2">
+        <img id="olho" onclick="abrir()" src="imagem/closed.png" alt="">
+        <img id="olho2" onclick="abrir()" src="imagem/closed.png" alt="">
+        <p>Data de nascimento</p>
+        <input type="date"  name="nascimento" id="nascimento">
+        <a id="bt-cadastrar" href="">Cadastrar</a>
+        <a id="bt-entrar" href="login.html">Entrar</a>
+    </form>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

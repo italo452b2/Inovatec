@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>PCMV</title>
+</head>
+<body>
+    <div id="logo">
+        <img src="imagem/logo pcmv.png" alt="imagem-logo">
+    </div>
+    <form>
+        <h1>Conecte-se</h1>
+        <p>Faça login para continuar</p>
+        <input type="text" placeholder="Usuário" name="usuario" id="usuario">
+        <input type="password" placeholder="Senha" name="senha" id="senha">
+        <img id="olho" onclick="abrir()" src="imagem/closed.png" alt="">
+        <a id="esqueci-senha" href="">Esqueceu a senha?</a>
+        <a id= "botao" onclick="logar(); return false" href="">Entrar</a>
+        <p id="cadastro">Não tem uma conta ? <a id="cadastro2" href="cadastro.html"> Cadastre-se.</a></p>
+    </form>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
